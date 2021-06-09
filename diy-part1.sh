@@ -17,4 +17,4 @@
 sed -i '$a src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 git clone -b master https://github.com/vernesong/OpenClash package/openclash
-git clone https://github.com/pymumu/smartdns.git package/smartdns
+git clone https://github.com/pymumu/smartdns package/smartdns
